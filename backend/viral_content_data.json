@@ -1,0 +1,705 @@
+{
+  "contents": [
+    {
+      "id": "5b2e192c-22fd-4dcb-9d20-4c32664c20e5",
+      "title": "Monthly Getting Started / Web Dev Career Thread",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/webdev/comments/1n5msjg/monthly_getting_started_web_dev_career_thread/",
+      "content_text": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will no longer be allowed in the main thread.\n\nMany of these questions are also addressed in the sub FAQ or may have been asked in [previous monthly career threads](/r/webdev/search?q=flair%3AMonthlyCareerThread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n\nSubs dedicated to these types of questions include [r/cscareerquestions](/r/cscareerquestions) for general and opened ended career questions and [r/learnprogramming](/r/learnprogramming) for early learning questions.\n\nA general recommendation of topics to learn to become industry ready include:\n\n- [HTML/CSS/JS Bootcamp](https://www.udemy.com/course/javascript-beginners-complete-tutorial)\n- [Version control](https://www.atlassian.com/git/tutorials/what-is-version-control)\n- [Automation](https://blog.logrocket.com/tools-and-modern-workflow-for-front-end-developers-505c7227e917/)\n- [Front End Frameworks (React/Vue/Etc)](https://www.freecodecamp.org/news/complete-guide-for-front-end-developers-javascript-frameworks-2019/)\n- [APIs and CRUD](https://www.freecodecamp.org/news/crud-operations-using-vanilla-javascript-cd6ee2feff67/)\n- [Testing (Unit and Integration)](https://raygun.com/blog/javascript-unit-testing-frameworks/)\n- [Common Design Patterns](https://www.patterns.dev/)\n\nYou will also need a portfolio of work with 4-5 personal projects you built, and a resume/CV to apply for work.\n\nPlan for 6-12 months of self study and project production for your portfolio before applying for work.",
+      "author": "AutoModerator",
+      "published_date": "2025-09-01 09:00:46",
+      "scraped_date": "2025-09-26 19:25:07.491822",
+      "engagement_metrics": {
+        "views": 170,
+        "likes": 0,
+        "comments": 73,
+        "shares": 0,
+        "upvotes": 17,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 100.0,
+      "tags": [
+        "webdev"
+      ],
+      "thumbnail_url": "self"
+    },
+    {
+      "id": "34132031-b856-474e-835d-1c8d0649b5ed",
+      "title": "Weekly Simple Questions and General Community Discussion Thread",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/MakeupAddiction/comments/1nr9uba/weekly_simple_questions_and_general_community/",
+      "content_text": "Use this post for anything you feel doesn't need to be a whole post of its own! Ask for product recommendations! Get opinions on what eye shape you have! Or just get to know each other!",
+      "author": "AutoModerator",
+      "published_date": "2025-09-26 16:00:57",
+      "scraped_date": "2025-09-26 19:25:27.944843",
+      "engagement_metrics": {
+        "views": 20,
+        "likes": 0,
+        "comments": 6,
+        "shares": 0,
+        "upvotes": 2,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 100.0,
+      "tags": [
+        "MakeupAddiction"
+      ],
+      "thumbnail_url": "self"
+    },
+    {
+      "id": "76bc2b17-b6b9-485f-992c-456fae74e966",
+      "title": "Astrophysicist on Vibe Coding (2 minutes)",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nqui4m/astrophysicist_on_vibe_coding_2_minutes/",
+      "content_text": "",
+      "author": "fredoverflow",
+      "published_date": "2025-09-26 03:57:13",
+      "scraped_date": "2025-09-26 16:45:05.233669",
+      "engagement_metrics": {
+        "views": 650,
+        "likes": 0,
+        "comments": 150,
+        "shares": 0,
+        "upvotes": 65,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 99.23076923076923,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "2377088f-2092-4f88-9810-d9b90d6ea082",
+      "title": "Simple Supply-Chain Attack Guardrails for npm, pnpm, and Yarn",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nr7am5/simple_supplychain_attack_guardrails_for_npm_pnpm/",
+      "content_text": "",
+      "author": "coinspect",
+      "published_date": "2025-09-26 14:20:59",
+      "scraped_date": "2025-09-26 19:21:24.115435",
+      "engagement_metrics": {
+        "views": 10,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 1,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 60.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "2afd201d-c3ec-41c3-b1e3-e4b673af04fb",
+      "title": "We are the W3C WebDX Community Group, working to improve developer experience with projects like Baseline. Ask Us Anything!",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/webdev/comments/1ncq269/we_are_the_w3c_webdx_community_group_working_to/",
+      "content_text": "Hi r/webdev! We are members of the W3C Web Developer Experience Community Group (WebDX CG) and we'll be hosting an AMA right here on Thursday, September 18th, starting at 9:00 AM ET. We're all about making your life as a web developer easier, and we're here to chat about our projects like Baseline, and answer all your burning questions.\n\n**What is the WebDX CG?**\n\n[Our mission](https://github.com/web-platform-dx/admin/blob/main/charter.md) is to improve your experience developing for the Web platform, through two main pillars:\n\n1. Coordinating research to get a clear, data-driven picture of the major obstacles and gaps that developers face every day.\n2. Building a shared understanding of the interoperable parts of the web platform to promote clear, consistent communication about which features developers can use confidently.\n\nWe are a group of browser vendors, developers, and other web stakeholders dedicated to identifying and smoothing out the sharp edges of web development.\n\n**What do we actually work on?**\n\nYou may already be familiar with some of our work, including\u00a0\n\n* [Baseline](https://web-platform-dx.github.io/web-features/): Baseline provides clear information about which web platform features are compatible across a core set of browsers. It gives developers confidence in the level of browser compatibility when reading articles or choosing libraries for their projects. By aligning with Baseline, developers can expect fewer surprises when testing their sites.\n* Supporting Interoperability: Our work directly supports browser interoperability. By defining clear feature sets (like Baseline), we create a shared target for browser vendors and reduce the inconsistencies that cause developer frustration. Examples of projects built on this data include the [Web platform features explorer](https://web-platform-dx.github.io/web-features-explorer/) and [webstatus.dev](https://webstatus.dev/).\u00a0\n* Understanding developer needs: We facilitate and publish research like short surveys on MDN and the State of CSS, HTML, and JS surveys. We dig into the survey data and other developer signals to help the web platform ecosystem understand what you, the developers, need most.\n\n**Who will be answering your questions?**\n\nWe have several members of the CG here to take your questions. Here's who's on the panel:\n\n* Fran\u00e7ois Daoust\\* (u/Internal\\_Self730), W3C Web Specialist\n* Patrick Brosset\\* (u/WebPlatformLover), Microsoft Edge PM\n* Kadir Topal (u/aktopal), Google Chrome PM\n* Philip J\u00e4genstedt (u/foolip), Google Chrome Engineer\n* Rachel Andrew (u/rachelandrew), Google Chrome DevRel\n* Rick Viscomi (u/rviscomi), Google Chrome DevRel\n* Jeremy Wagner (u/jlwagner), Google Chrome DevRel\n* James Stuckey Weber (u/jamessw), OddBird Developer\n* Daniel Beck (u/ddbeck), Core maintainer for `web-features` and Baseline\n\n*\\* CG Chair*\n\nProof: [https://web.dev/blog/baseline-ama](https://web.dev/blog/baseline-ama)\n\n**Ask Us Anything!**\n\nWe'll be here to answer your questions on Thursday, September 18th, starting at 9:00 AM ET.\n\nWe're ready to discuss:\n\n* The methodology and future of Baseline\n* How Baseline differs from other resources like MDN and Can I Use\n* The biggest DX challenges you think the web faces\n* How developer feedback influences browser interoperability\n* How an individual developer can get involved and make their voice heard\n* What our day-to-day work looks like in the CG\n\nWe're looking forward to a great discussion. See you then!",
+      "author": "rviscomi",
+      "published_date": "2025-09-09 14:59:22",
+      "scraped_date": "2025-09-26 19:25:07.491971",
+      "engagement_metrics": {
+        "views": 200,
+        "likes": 0,
+        "comments": 17,
+        "shares": 0,
+        "upvotes": 20,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 55.50000000000001,
+      "tags": [
+        "webdev"
+      ],
+      "thumbnail_url": "self"
+    },
+    {
+      "id": "a7a3a75d-5ddb-45c7-ab87-833dcb0f3cb2",
+      "title": "\"Does this match?\" Monday",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/MakeupAddiction/comments/1nnhf4t/does_this_match_monday/",
+      "content_text": "**Happy Monday!!** \n\nPlease use this pinned weekly thread to discuss your shade matches, near matches, and seek advice on shade matching! Foundation, concealer, and any other makeup products that need a shade match are all up for discussion. You can post your photos as comments as well. This is a super casual thread and most rules are relaxed, but still be kind to yourselves and one another!\n\n  \nWe're trying out some regular themed posts. Please [message the mods](https://www.reddit.com/message/compose?to=r/MakeupAddiction) to give us your feedback!",
+      "author": "AutoModerator",
+      "published_date": "2025-09-22 06:01:51",
+      "scraped_date": "2025-09-26 19:25:27.944936",
+      "engagement_metrics": {
+        "views": 20,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 2,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 45.0,
+      "tags": [
+        "MakeupAddiction"
+      ],
+      "thumbnail_url": "self"
+    },
+    {
+      "id": "56fa2178-4da5-4a35-8b30-608e1a3a279d",
+      "title": "1 Bit is all we need: Binary Normalized Neural Networks",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nqxo66/1_bit_is_all_we_need_binary_normalized_neural/",
+      "content_text": "",
+      "author": "GarethX",
+      "published_date": "2025-09-26 07:22:10",
+      "scraped_date": "2025-09-26 16:45:05.233610",
+      "engagement_metrics": {
+        "views": 1230,
+        "likes": 0,
+        "comments": 38,
+        "shares": 0,
+        "upvotes": 123,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 39.268292682926834,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "abd4cb9c-e0aa-4ab8-b830-90599411b004",
+      "title": "Our plan for a more secure npm supply chain",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nr6ouy/our_plan_for_a_more_secure_npm_supply_chain/",
+      "content_text": "",
+      "author": "beyphy",
+      "published_date": "2025-09-26 13:58:04",
+      "scraped_date": "2025-09-26 16:45:05.233717",
+      "engagement_metrics": {
+        "views": 100,
+        "likes": 0,
+        "comments": 3,
+        "shares": 0,
+        "upvotes": 10,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 39.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "55e478bb-87fa-48b4-9991-70d3cf67f277",
+      "title": "I made an app to translate blinks, head turns and nods into Morse Code! It is my first ever computer vision project!",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/webdev/comments/1nrb053/i_made_an_app_to_translate_blinks_head_turns_and/",
+      "content_text": "Hey guys, I have spent most of my free time during the past month working on this project to translate blinks, nods, and head turns into Morse code. I started this project mainly because I was starting to get bored with coding; which made me very sad, because coding has been a great source of joy for me!  \n  \n I had a theory that if I made something like nothing I had built before that was challenging enough; the dopamine that used to grace my system whenever I started to code would come back...and it did! I had days of fun!\n\nOne of the hardest part about making this was finding the right model for the job; I ended using Mediapipe's Face Landmarker which is open source and runs in the browser, after that the challenge was figuring out how to translate blendshape scores to detect head turns, nods, blinks and long blinks!   \n  \nThe whole process was sooo exciting! \n\nOnce, I finished the project, I made a YT [video ](https://youtu.be/LB8nHcPoW-g)about exactly how I made it. I will leave a link below if you'd like to watch it. I also deployed the app to Netlify; I added the link to the video description so you can try blinking in Morse code too. \n\nLink to video:  \n[https://youtu.be/LB8nHcPoW-g](https://youtu.be/LB8nHcPoW-g)",
+      "author": "Piko8Blue",
+      "published_date": "2025-09-26 16:46:34",
+      "scraped_date": "2025-09-26 19:25:07.492155",
+      "engagement_metrics": {
+        "views": 140,
+        "likes": 0,
+        "comments": 4,
+        "shares": 0,
+        "upvotes": 14,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 38.57142857142858,
+      "tags": [
+        "webdev"
+      ],
+      "thumbnail_url": "https://a.thumbs.redditmedia.com/O8HmLZ0a7zi3XEOW-5twl9Czafa7LrWrsv-KQqSBul8.jpg"
+    },
+    {
+      "id": "5d91b118-6807-4da4-ae5b-0243f154a323",
+      "title": "OpenAPI 3.2.0 released: Evolving with Modern API Patterns",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nr9hnj/openapi_320_released_evolving_with_modern_api/",
+      "content_text": "",
+      "author": "AntonOkolelov",
+      "published_date": "2025-09-26 15:47:21",
+      "scraped_date": "2025-09-26 19:21:24.115052",
+      "engagement_metrics": {
+        "views": 40,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 4,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 37.5,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "f0e1c44b-c0c9-441b-baef-8ea4e77fe51d",
+      "title": "Australia might restrict GitHub over damage to kids, internet laughs",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nr7zh5/australia_might_restrict_github_over_damage_to/",
+      "content_text": "",
+      "author": "BillWilberforce",
+      "published_date": "2025-09-26 14:47:44",
+      "scraped_date": "2025-09-26 16:45:05.233476",
+      "engagement_metrics": {
+        "views": 1890,
+        "likes": 0,
+        "comments": 47,
+        "shares": 0,
+        "upvotes": 189,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 37.46031746031746,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "5adc2291-02b7-4f16-815b-037a6c955f3e",
+      "title": "Decision Log: Why writing down your technical choices is a game-changer",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nqgn7x/decision_log_why_writing_down_your_technical/",
+      "content_text": "",
+      "author": "dmp0x7c5",
+      "published_date": "2025-09-25 16:47:55",
+      "scraped_date": "2025-09-26 19:21:24.115097",
+      "engagement_metrics": {
+        "views": 1420,
+        "likes": 0,
+        "comments": 35,
+        "shares": 0,
+        "upvotes": 142,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 37.394366197183096,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "ecb030d2-612e-4c1d-8262-671836948390",
+      "title": "Why I Celebrate Every Single Install Daily. A small win!",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/webdev/comments/1nr7ine/why_i_celebrate_every_single_install_daily_a/",
+      "content_text": "Hello folks, I\u2019m Johnson \ud83d\udc4b\n\nEvery morning, I open my Chrome extension dashboard like it\u2019s the stock market. Most days it says **+1 new install**. One. Just one.\n\nA few months back, I would\u2019ve laughed if someone told me I\u2019d get excited about a single install. But now? That \u201c1\u201d means a stranger out there trusted something I built. And honestly, that blows my mind.\n\nHere\u2019s the truth:\n\n* Bookmarks never worked for me.\n* I tried notes, docs, even dumping links in WhatsApp groups.\n* Every time, I\u2019d lose track of something important.\n\nSo I built **Grabber**. Not as a startup idea. Not because I thought it\u2019d go viral. I built it because I was tired of searching the same links over and over again. \n\nRight now, Grabber is tiny. \\~1 install/day. Some days 0. Some days 2. It\u2019s humbling. But every new user feels like a small \u201cyes\u201d that I\u2019m on the right path.\n\nI don\u2019t know where this will go yet. But I do know this: if even a handful of people save time every day because of it, then it\u2019s worth building.\n\nIf you\u2019ve struggled with messy links or bookmarks, I\u2019d love for you to try Grabber. And if you do, please tell me where it helps (or fails). Feedback means more than numbers at this stage.\n\nThanks for reading this far \u2764",
+      "author": "SubstantialFig3918",
+      "published_date": "2025-09-26 14:29:36",
+      "scraped_date": "2025-09-26 19:25:07.492103",
+      "engagement_metrics": {
+        "views": 380,
+        "likes": 0,
+        "comments": 9,
+        "shares": 0,
+        "upvotes": 38,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 37.10526315789473,
+      "tags": [
+        "webdev"
+      ],
+      "thumbnail_url": "https://b.thumbs.redditmedia.com/8qdqpPLvmHj4EcKYlhKCrh9KsPNQgXV2EtGHrVLHV-o.jpg"
+    },
+    {
+      "id": "c3bb5cf2-4686-48fe-bc23-006766054da5",
+      "title": "Australia might restrict GitHub over damage to kids, internet laughs",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/webdev/comments/1nr804f/australia_might_restrict_github_over_damage_to/",
+      "content_text": "",
+      "author": "BillWilberforce",
+      "published_date": "2025-09-26 14:48:26",
+      "scraped_date": "2025-09-26 19:25:07.492043",
+      "engagement_metrics": {
+        "views": 3100,
+        "likes": 0,
+        "comments": 61,
+        "shares": 0,
+        "upvotes": 310,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 35.90322580645161,
+      "tags": [
+        "webdev"
+      ],
+      "thumbnail_url": "default"
+    },
+    {
+      "id": "d72b94ad-7f31-4689-abaa-4613ae495f94",
+      "title": "Ruby Central executes hostile takeover of the RubyGems github organisation and code repositories",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrbh25/ruby_central_executes_hostile_takeover_of_the/",
+      "content_text": "",
+      "author": "ivosaurus",
+      "published_date": "2025-09-26 17:04:29",
+      "scraped_date": "2025-09-26 19:21:24.114816",
+      "engagement_metrics": {
+        "views": 280,
+        "likes": 0,
+        "comments": 3,
+        "shares": 0,
+        "upvotes": 28,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 33.214285714285715,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "679afadb-69a8-4de8-8c0d-4ce235befab7",
+      "title": "PostgreSQL 18 Released!",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nq6g8p/postgresql_18_released/",
+      "content_text": "",
+      "author": "jskatz05",
+      "published_date": "2025-09-25 10:14:23",
+      "scraped_date": "2025-09-26 16:45:05.233761",
+      "engagement_metrics": {
+        "views": 7390,
+        "likes": 0,
+        "comments": 48,
+        "shares": 0,
+        "upvotes": 739,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 31.948579161028416,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "403a3ced-7087-49d1-95ea-9f92798c41d2",
+      "title": "Postgres 18: OLD and NEW Rows in the RETURNING Clause",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nqjuck/postgres_18_old_and_new_rows_in_the_returning/",
+      "content_text": "",
+      "author": "craigkerstiens",
+      "published_date": "2025-09-25 18:55:43",
+      "scraped_date": "2025-09-26 19:21:24.115308",
+      "engagement_metrics": {
+        "views": 850,
+        "likes": 0,
+        "comments": 3,
+        "shares": 0,
+        "upvotes": 85,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 31.058823529411768,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "e2d9749b-2d53-4915-9407-62610be773a5",
+      "title": "My makeup turns out perfect when I have nowhere to go",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/MakeupAddiction/comments/1nr3gr9/my_makeup_turns_out_perfect_when_i_have_nowhere/",
+      "content_text": " All I had to do was go to the dollar store today smh.\n\nProduct list: Est\u00e9e Lauder DW foundation in Rattan, Givenchy lipstick Sheer Velvet Le Rouge, Elf Sheer lip and cheek stain in cherry cola, Colourpop palette in Nude Mood, Maybelline Sky High mascara (black), Rare Beauty Highlighter in Exhilarate (liquid form), Revlon ColorStay eyeliner, \n\n",
+      "author": "OkAccountant5204",
+      "published_date": "2025-09-26 11:53:50",
+      "scraped_date": "2025-09-26 19:25:27.944974",
+      "engagement_metrics": {
+        "views": 12970,
+        "likes": 0,
+        "comments": 39,
+        "shares": 0,
+        "upvotes": 1297,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.902081727062452,
+      "tags": [
+        "MakeupAddiction"
+      ],
+      "thumbnail_url": "https://b.thumbs.redditmedia.com/3DzCIjIC72bid7ZrO6kqmBG7fOkIcoIyVEjRrqIIjrU.jpg"
+    },
+    {
+      "id": "53f621a9-54ad-4dc8-9c9b-33d520226516",
+      "title": "[ Removed by Reddit ]",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrep5e/removed_by_reddit/",
+      "content_text": "[ Removed by Reddit on account of violating the [content policy](/help/contentpolicy). ]",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:19:17",
+      "scraped_date": "2025-09-26 19:21:24.115143",
+      "engagement_metrics": {
+        "views": 10,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 1,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "4f0a56a1-640f-4b90-9d8a-ff0c179e4a39",
+      "title": "Turning Billions of Strings into Integers Every Second Without Collisions",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nreor8/turning_billions_of_strings_into_integers_every/",
+      "content_text": "",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:18:48",
+      "scraped_date": "2025-09-26 19:21:24.115185",
+      "engagement_metrics": {
+        "views": 10,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 1,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "61748227-7610-42eb-add4-941cc1739672",
+      "title": "Translating a Fortran F-16 Simulator to Unity3D",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nreolg/translating_a_fortran_f16_simulator_to_unity3d/",
+      "content_text": "",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:18:36",
+      "scraped_date": "2025-09-26 19:21:24.115225",
+      "engagement_metrics": {
+        "views": 10,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 1,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "c761041d-d410-4d19-820d-318b58450708",
+      "title": "Visual Online Builder/Estimator",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrei6l/visual_online_builderestimator/",
+      "content_text": "Any one have a program to build a 3D visual of carports? My buddy has a carport business and the way he has his site set up is more work  on my end to visualize orders for customers. \n\nIve seen other sites with it but if anyone has a royalty free version we can implement to the site even if its just visually as we can estimate it off the size and details. \n\nIm sure we can work something out on compensation but i doubt building an ne from scratch would be feasible as he wants to keep it affordable on his end. \n\nLet me know if anyone has any info or if they know of a low cost plug in program we can utilize. \n\nHe is using wix as his host and site builder. \n\nThanks! Any help in the right direction would be a great help as well! Im helping on the sales side and would benefit me and my sales reps under me. \n\nI linked a similar sites 3D estimator wed like to have something similar to. \n\nEx: Any plug ins already available that are affordable.\n\nPermanent programs we can drag and drop onto the site. (If the price is doable im sure i can convince him to buy the program) \n\nOr whatever you guys think. Thanks \n\nIf this is the wrong sub let me know where I can repost this to get better help. Thanks!\n\n",
+      "author": "619xWelder",
+      "published_date": "2025-09-26 19:10:26",
+      "scraped_date": "2025-09-26 19:21:24.115268",
+      "engagement_metrics": {
+        "views": 10,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 1,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "554523b6-2342-460d-a04e-05afc87adcfa",
+      "title": "From Full stack to Full Team stack",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrd0os/from_full_stack_to_full_team_stack/",
+      "content_text": "Hello fellow gladiators,\n\nI conducted deep research  for a comparative analysis of the software engineering environment from 2000 to 2025 and the report is in the Google Drive. But I want to discuss the current software engineering environment.\n\nI've been absent from the software engineering scene for 4 years now, and I returned, and the amount of my shock at how it has become so notoriously difficult is like a gladiator's arena.\n\nA software engineer not only needs to be full-stack, but \\*\\*full-team stack (\\*\\*I hope this term not be used in hiring);\n\n1. front-end with at least two or three frameworks \"mastery\" (React, Angular, Vue.js...) for JavaScript, and frameworks for CSS too with UI/UX knowledge and experience\n2. With backend three or four mastery (C/C++, Python, Java, C#, NodeJS, now Rust ...) with each one of the languages needing mastery of one or two frameworks that each have.\n3. Need to have Cloud mastery too (AWS, Azure, Google Cloud...),\n4. DevOps Docker, Kubernetes, CI/CD are the most basic tools, even to be called a software engineer at the entry-level.\n5. databases at least one or two SQL and two NoSQL: (SQL server, MySQL ,PL/SQL, MongoDB, Redis, Cassandra...)\n6. Quality and test assurance\n7. MLOps also with all that  ML/AI/DL \"fundamental knowledge\" (TensorFlow, Keras,nlp...)\n8. Maybe Networking knowledge with Cisco professional certificate aimed for at least mid-seniority\n\nHere is an example, this is for an entry-level\n\n&gt;**A Bachelor\u2019s Degree**Successful engineer in this role have majored in computer science and related fieldsGPA above 3.7  \n**A**\u00a0**Few Related Skills and Experiences**(This is an entry-level role, and experience in every one of these areas is not required - training is provided on all core platforms, tools, and technologies you will need to know! But the following skills/experience are awesome to have, and will help get your career off to a running start:):  \nPart-time/Full-time/summer job/internship experience is a must  \nExperience with open-source web development  \nExperience with web-based programming languages (JavaScript, HTML, etc.)  \nProject-level experience with at least one JavaScript-based project  \nExperience with Cloud Computing Programs, Google Cloud Platform, AWS, Azure, etc.  \nExperience with OOP and procedural programming methodologies  \nUnderstanding of software development life-cycles and best practices  \nKnowledge of standard-compliant HTML, CSS, and Javascript  \nDatabase experience (MySQL, Google BigQuery)  \nExperience with CCS Frameworks (Bootstrap, Foundation, Intuit, etc.)  \nExperience with JS Frameworks (JQuery, React, Vue, Backbone, etc.)  \nExperience with Git Version control (or other version control software)  \nExperience with package management and Task Runners (NPM, Yarn, Gulp, Grunt)  \nExperience with browser testing using built-in developer toolsFamiliarity with TensorFlow and Machine Learning  \nExperience with NodeJSExperience with SaaS monitoring software such as DataDog  \nExperience with data management using data pipeline toolsPrevious agency experience  \n**Any of these Signature of our Traits!**  \nYou\u2019re passionate about web/software development -  \n***\"you even find yourself spending your free time tinkering and learning new technologies!\"(Should the canditat breath too? Or inhale and exhale assembly code?)***  \nYou\u2019re comfortable with both object-oriented and procedural programming methodologies  \nYou\u2019re committed to delivering high-quality projects for clients  \nYou enjoy variety, and like the challenge of working on multiple projects  \nYou\u2019re comfortable working both independently and as part of a team  \nYou take direction well, but aren\u2019t afraid to take initiative and make decisions  \nYou see yourself as a problem-solver, and face challenges with a can-do mindset  \nYou put the customer and their goals firstYou have an interest in the web and stay up-to-date on new and developing technologies  \nYou are a professional, dependable, and independent worker with a solid work ethic  \nYou\u2019re self-motivated, thrive on challenges, and enjoy getting things done  \nYou have an eye for detail and dedication to high-quality work  \nYou have an exceptional level of follow-through  \nYou possess excellent time/project management skills  \nYou work with a sense of urgency and can consistently meet deadlines  \nYou are an outstanding communicator and possess strong interpersonal skills  \nYou are a lifelong learner who loves to grow and stretch outside of your comfort zone, and are always looking to improve your skills ***(After all those skills that the candidat have I am sure he will not need any advancement as entry level)***\n\nSo a software engineer needs to be full-stack + Designer UI/UX+ Cloud architect + DevOps + Databases administrator + MLOPS + maybe network engineer + Quality assurance engineer + cyberOps as a plus. All of those have previously had a dedicated engineer to work full-time on in a team, except the new MLOps, now the companies want all in one person and say, \"you can and you will use AI, and when the task fails with severe security unseen bug or general architecture breakdown, the human is to blame!\"\n\nNo wonder there is senior burnout, and if we keep cutting entry-level jobs, there will be no more quality future engineers and the software industry will suffer, bringing with it all other industries due to a lack of software engineers.\n\nIt's like wanting a doctor who is brain, heart, bones... surgeon, also every organ in the body doctor, also at the same time a pharmacist, biologist... because all have the same common root.\n\nWhat is this madness? Companies greed? And worst of all, probably students who still in universities will change their majors because of the amount of skills needed with open source experience and the hostility in the work environment if they get a job, and current graduates will regret the effort and the hard work they made to have a degree in computer science in the first place, and just work in another domain.\n\nThis will cut the new graduates and newcomers to software engineering, and the catastrophe will happen, degrade software quality for all of us and software is used almost in all industries from agriculture to cars and airplanes to medical machines, and we will not have the quality or number of engineers who will maintain our industries and ecosystem because there is not enough new ones to land and job and have experience and most of all the passion for programming will vanish from all the rest of us!\n\n**Also, maybe in 2-5 years, if all continues like this, we will say software engineering has peaked by 2025, then went downhill fast.**",
+      "author": "maher1717",
+      "published_date": "2025-09-26 18:06:10",
+      "scraped_date": "2025-09-26 19:21:24.115479",
+      "engagement_metrics": {
+        "views": 10,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 1,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "610dc2f6-c720-4695-80a0-210883d09eaf",
+      "title": "How Kafka Really Works",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nr6zhk/how_kafka_really_works/",
+      "content_text": "",
+      "author": "sh_tomer",
+      "published_date": "2025-09-26 14:08:57",
+      "scraped_date": "2025-09-26 19:21:24.115521",
+      "engagement_metrics": {
+        "views": 20,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 2,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "ae2e8272-e3ee-47ed-8cb2-7ec801059996",
+      "title": "The Untold Story of the Swift Language",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrdokz/the_untold_story_of_the_swift_language/",
+      "content_text": "",
+      "author": "BlueGoliath",
+      "published_date": "2025-09-26 18:34:45",
+      "scraped_date": "2025-09-26 19:21:24.115352",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.003,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "c03e00b7-f6f7-4ae0-9c70-72c02b84e8b9",
+      "title": "The most efficient way to do nothing [RPCS3]",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nra28r/the_most_efficient_way_to_do_nothing_rpcs3/",
+      "content_text": "",
+      "author": "Whatcookie_",
+      "published_date": "2025-09-26 16:09:16",
+      "scraped_date": "2025-09-26 19:21:24.115601",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.003,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "ef0b00b6-bb84-4fad-a4d1-3d503ca64ac7",
+      "title": "Let's talk about alignment, sizing and packing in Zig, C, Rust and... Go?",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrdhf2/lets_talk_about_alignment_sizing_and_packing_in/",
+      "content_text": "",
+      "author": "BlueGoliath",
+      "published_date": "2025-09-26 18:26:09",
+      "scraped_date": "2025-09-26 19:21:24.115394",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "0ef90e50-6aa9-4835-8b0e-1159c1c09974",
+      "title": "Dial-a-Precision Prime Search with 100% Recall",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nra46w/dialaprecision_prime_search_with_100_recall/",
+      "content_text": "&gt;\n\n# Abstract\n\nThis is a\u00a0**recall-perfect**\u00a0pipeline for prime number searches that lets you\u00a0**dial the precision**\u00a0with two knobs: a scale-aware\u00a0**wheel sieve**\u00a0bound\u00a0`B(n)`\u00a0and the number of\u00a0**Miller\u2013Rabin**\u00a0bases\u00a0`k`. Step 1 is a high-recall prefilter (the \u201c**Purple Stripe**\u201d: numbers\u00a0`n`\u00a0where\u00a0`n mod 6`\u00a0is 1 or 5). Step 2 adds\u00a0**anti-helices**\u00a0(a wheel built from small primes) whose filtering strength grows with the number\u00a0`n`\u00a0being tested. Step 3 runs a short chain of\u00a0**one-sided**\u00a0tests (they never reject a true prime), ending with a few MR bases. The result:\u00a0**recall is 100%**\u00a0by design, and\u00a0**precision**\u00a0jumps to\u00a0**97\u201399%**\u00a0with just 2\u20133 MR bases and can be pushed arbitrarily close to 100%.\n\n# 1. The Core Idea\n\n* Beyond 3, every prime number is of the form\u00a0**6k +/- 1**. We call this the\u00a0**purple stripe**.\n* Composites on this stripe appear when a number is a multiple of a small prime (like 5, 7, 11, etc.).\n* The density of prime numbers decreases as numbers get larger (it\u2019s about\u00a0**1 / ln(n)**). To maintain high\u00a0**precision**, the wheel\u2019s filtering strength must increase with\u00a0`n`\u00a0by excluding multiples of more small primes.\n\nThis isn\u2019t new number theory; it\u2019s a clean engineering approach that combines wheel sieves with the Prime Number Theorem to give you precise control over the trade-off between precision and computational cost.\n\nFor more go to the above link to medium.",
+      "author": "caprazli",
+      "published_date": "2025-09-26 16:11:16",
+      "scraped_date": "2025-09-26 19:21:24.115561",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    }
+  ],
+  "last_updated": "2025-09-26T19:25:27.946997"
+}
