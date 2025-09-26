@@ -50,6 +50,8 @@ export default function Home() {
   const [redditSubject, setRedditSubject] = useState<string>('tech');
   const [redditSubreddit, setRedditSubreddit] = useState<string>('');
 
+  const api_url = ''
+
   // Subreddit suggestions by subject
   const subredditsBySubject = {
     tech: ['programming', 'webdev', 'MachineLearning', 'technology', 'learnprogramming', 'Python', 'javascript', 'reactjs'],
@@ -81,7 +83,7 @@ export default function Home() {
         params.append('min_viral_score', minViralScore.toString());
       }
 
-      const response = await fetch(`http://localhost:8000/content?${params}`);
+      const response = await fetch(`${api_url}/content?${params}`);
       if (response.ok) {
         const data = await response.json();
         setContent(data);
@@ -114,7 +116,7 @@ export default function Home() {
     }
 
     try {
-      const response = await fetch(`http://localhost:8000/content/search?q=${encodeURIComponent(searchQuery)}`);
+      const response = await fetch(`${api_url}/content/search?q=${encodeURIComponent(searchQuery)}`);
       if (response.ok) {
         const data = await response.json();
         setContent(data);
@@ -136,7 +138,7 @@ export default function Home() {
         limit: scrapeLimit,
         reddit_subreddit: redditSubreddit || (subredditsBySubject[redditSubject as keyof typeof subredditsBySubject]?.[0] || 'programming')
       };
-      const response = await fetch('http://localhost:8000/scrape', {
+      const response = await fetch(`${api_url}/scrape`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(scrapeRequest)
@@ -165,7 +167,7 @@ export default function Home() {
   const generateAIAnalysis = async (contentId: string) => {
     setAiAnalysisLoading(prev => new Set(prev).add(contentId));
     try {
-      const response = await fetch(`http://localhost:8000/analyze/${contentId}`, {
+      const response = await fetch(`${api_url}/analyze/${contentId}`, {
         method: 'POST'
       });
       if (response.ok) {
@@ -193,7 +195,7 @@ export default function Home() {
   const generateBrief = async (contentId: string) => {
     setBriefLoading(prev => new Set(prev).add(contentId));
     try {
-      const response = await fetch(`http://localhost:8000/generate-brief/${contentId}`, {
+      const response = await fetch(`${api_url}/generate-brief/${contentId}`, {
         method: 'POST'
       });
       if (response.ok) {
