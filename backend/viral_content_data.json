@@ -1,56 +1,6 @@
 {
   "contents": [
     {
-      "id": "5b2e192c-22fd-4dcb-9d20-4c32664c20e5",
-      "title": "Monthly Getting Started / Web Dev Career Thread",
-      "platform": "reddit",
-      "content_type": "post",
-      "url": "https://reddit.com/r/webdev/comments/1n5msjg/monthly_getting_started_web_dev_career_thread/",
-      "content_text": "Due to a growing influx of questions on this topic, it has been decided to commit a monthly thread dedicated to this topic to reduce the number of repeat posts on this topic. These types of posts will no longer be allowed in the main thread.\n\nMany of these questions are also addressed in the sub FAQ or may have been asked in [previous monthly career threads](/r/webdev/search?q=flair%3AMonthlyCareerThread&amp;restrict_sr=on&amp;sort=new&amp;t=all).\n\nSubs dedicated to these types of questions include [r/cscareerquestions](/r/cscareerquestions) for general and opened ended career questions and [r/learnprogramming](/r/learnprogramming) for early learning questions.\n\nA general recommendation of topics to learn to become industry ready include:\n\n- [HTML/CSS/JS Bootcamp](https://www.udemy.com/course/javascript-beginners-complete-tutorial)\n- [Version control](https://www.atlassian.com/git/tutorials/what-is-version-control)\n- [Automation](https://blog.logrocket.com/tools-and-modern-workflow-for-front-end-developers-505c7227e917/)\n- [Front End Frameworks (React/Vue/Etc)](https://www.freecodecamp.org/news/complete-guide-for-front-end-developers-javascript-frameworks-2019/)\n- [APIs and CRUD](https://www.freecodecamp.org/news/crud-operations-using-vanilla-javascript-cd6ee2feff67/)\n- [Testing (Unit and Integration)](https://raygun.com/blog/javascript-unit-testing-frameworks/)\n- [Common Design Patterns](https://www.patterns.dev/)\n\nYou will also need a portfolio of work with 4-5 personal projects you built, and a resume/CV to apply for work.\n\nPlan for 6-12 months of self study and project production for your portfolio before applying for work.",
-      "author": "AutoModerator",
-      "published_date": "2025-09-01 09:00:46",
-      "scraped_date": "2025-09-26 19:25:07.491822",
-      "engagement_metrics": {
-        "views": 170,
-        "likes": 0,
-        "comments": 73,
-        "shares": 0,
-        "upvotes": 17,
-        "downvotes": 0,
-        "engagement_rate": 0.0
-      },
-      "viral_score": 100.0,
-      "tags": [
-        "webdev"
-      ],
-      "thumbnail_url": "self"
-    },
-    {
-      "id": "34132031-b856-474e-835d-1c8d0649b5ed",
-      "title": "Weekly Simple Questions and General Community Discussion Thread",
-      "platform": "reddit",
-      "content_type": "post",
-      "url": "https://reddit.com/r/MakeupAddiction/comments/1nr9uba/weekly_simple_questions_and_general_community/",
-      "content_text": "Use this post for anything you feel doesn't need to be a whole post of its own! Ask for product recommendations! Get opinions on what eye shape you have! Or just get to know each other!",
-      "author": "AutoModerator",
-      "published_date": "2025-09-26 16:00:57",
-      "scraped_date": "2025-09-26 19:25:27.944843",
-      "engagement_metrics": {
-        "views": 20,
-        "likes": 0,
-        "comments": 6,
-        "shares": 0,
-        "upvotes": 2,
-        "downvotes": 0,
-        "engagement_rate": 0.0
-      },
-      "viral_score": 100.0,
-      "tags": [
-        "MakeupAddiction"
-      ],
-      "thumbnail_url": "self"
-    },
-    {
       "id": "76bc2b17-b6b9-485f-992c-456fae74e966",
       "title": "Astrophysicist on Vibe Coding (2 minutes)",
       "platform": "reddit",
@@ -101,54 +51,29 @@
       "thumbnail_url": ""
     },
     {
-      "id": "2afd201d-c3ec-41c3-b1e3-e4b673af04fb",
-      "title": "We are the W3C WebDX Community Group, working to improve developer experience with projects like Baseline. Ask Us Anything!",
+      "id": "8a1cbb01-b665-4fc9-b595-45804f6de05e",
+      "title": "Iterating strings and manually decoding UTF-8",
       "platform": "reddit",
       "content_type": "post",
-      "url": "https://reddit.com/r/webdev/comments/1ncq269/we_are_the_w3c_webdx_community_group_working_to/",
-      "content_text": "Hi r/webdev! We are members of the W3C Web Developer Experience Community Group (WebDX CG) and we'll be hosting an AMA right here on Thursday, September 18th, starting at 9:00 AM ET. We're all about making your life as a web developer easier, and we're here to chat about our projects like Baseline, and answer all your burning questions.\n\n**What is the WebDX CG?**\n\n[Our mission](https://github.com/web-platform-dx/admin/blob/main/charter.md) is to improve your experience developing for the Web platform, through two main pillars:\n\n1. Coordinating research to get a clear, data-driven picture of the major obstacles and gaps that developers face every day.\n2. Building a shared understanding of the interoperable parts of the web platform to promote clear, consistent communication about which features developers can use confidently.\n\nWe are a group of browser vendors, developers, and other web stakeholders dedicated to identifying and smoothing out the sharp edges of web development.\n\n**What do we actually work on?**\n\nYou may already be familiar with some of our work, including\u00a0\n\n* [Baseline](https://web-platform-dx.github.io/web-features/): Baseline provides clear information about which web platform features are compatible across a core set of browsers. It gives developers confidence in the level of browser compatibility when reading articles or choosing libraries for their projects. By aligning with Baseline, developers can expect fewer surprises when testing their sites.\n* Supporting Interoperability: Our work directly supports browser interoperability. By defining clear feature sets (like Baseline), we create a shared target for browser vendors and reduce the inconsistencies that cause developer frustration. Examples of projects built on this data include the [Web platform features explorer](https://web-platform-dx.github.io/web-features-explorer/) and [webstatus.dev](https://webstatus.dev/).\u00a0\n* Understanding developer needs: We facilitate and publish research like short surveys on MDN and the State of CSS, HTML, and JS surveys. We dig into the survey data and other developer signals to help the web platform ecosystem understand what you, the developers, need most.\n\n**Who will be answering your questions?**\n\nWe have several members of the CG here to take your questions. Here's who's on the panel:\n\n* Fran\u00e7ois Daoust\\* (u/Internal\\_Self730), W3C Web Specialist\n* Patrick Brosset\\* (u/WebPlatformLover), Microsoft Edge PM\n* Kadir Topal (u/aktopal), Google Chrome PM\n* Philip J\u00e4genstedt (u/foolip), Google Chrome Engineer\n* Rachel Andrew (u/rachelandrew), Google Chrome DevRel\n* Rick Viscomi (u/rviscomi), Google Chrome DevRel\n* Jeremy Wagner (u/jlwagner), Google Chrome DevRel\n* James Stuckey Weber (u/jamessw), OddBird Developer\n* Daniel Beck (u/ddbeck), Core maintainer for `web-features` and Baseline\n\n*\\* CG Chair*\n\nProof: [https://web.dev/blog/baseline-ama](https://web.dev/blog/baseline-ama)\n\n**Ask Us Anything!**\n\nWe'll be here to answer your questions on Thursday, September 18th, starting at 9:00 AM ET.\n\nWe're ready to discuss:\n\n* The methodology and future of Baseline\n* How Baseline differs from other resources like MDN and Can I Use\n* The biggest DX challenges you think the web faces\n* How developer feedback influences browser interoperability\n* How an individual developer can get involved and make their voice heard\n* What our day-to-day work looks like in the CG\n\nWe're looking forward to a great discussion. See you then!",
-      "author": "rviscomi",
-      "published_date": "2025-09-09 14:59:22",
-      "scraped_date": "2025-09-26 19:25:07.491971",
+      "url": "https://reddit.com/r/programming/comments/1nrerjs/iterating_strings_and_manually_decoding_utf8/",
+      "content_text": "",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:22:19",
+      "scraped_date": "2025-09-27 11:25:24.688136",
       "engagement_metrics": {
-        "views": 200,
+        "views": 40,
         "likes": 0,
-        "comments": 17,
+        "comments": 2,
         "shares": 0,
-        "upvotes": 20,
-        "downvotes": 0,
-        "engagement_rate": 0.0
-      },
-      "viral_score": 55.50000000000001,
-      "tags": [
-        "webdev"
-      ],
-      "thumbnail_url": "self"
-    },
-    {
-      "id": "a7a3a75d-5ddb-45c7-ab87-833dcb0f3cb2",
-      "title": "\"Does this match?\" Monday",
-      "platform": "reddit",
-      "content_type": "post",
-      "url": "https://reddit.com/r/MakeupAddiction/comments/1nnhf4t/does_this_match_monday/",
-      "content_text": "**Happy Monday!!** \n\nPlease use this pinned weekly thread to discuss your shade matches, near matches, and seek advice on shade matching! Foundation, concealer, and any other makeup products that need a shade match are all up for discussion. You can post your photos as comments as well. This is a super casual thread and most rules are relaxed, but still be kind to yourselves and one another!\n\n  \nWe're trying out some regular themed posts. Please [message the mods](https://www.reddit.com/message/compose?to=r/MakeupAddiction) to give us your feedback!",
-      "author": "AutoModerator",
-      "published_date": "2025-09-22 06:01:51",
-      "scraped_date": "2025-09-26 19:25:27.944936",
-      "engagement_metrics": {
-        "views": 20,
-        "likes": 0,
-        "comments": 1,
-        "shares": 0,
-        "upvotes": 2,
+        "upvotes": 4,
         "downvotes": 0,
         "engagement_rate": 0.0
       },
       "viral_score": 45.0,
       "tags": [
-        "MakeupAddiction"
+        "programming"
       ],
-      "thumbnail_url": "self"
+      "thumbnail_url": ""
     },
     {
       "id": "56fa2178-4da5-4a35-8b30-608e1a3a279d",
@@ -201,31 +126,6 @@
       "thumbnail_url": ""
     },
     {
-      "id": "55e478bb-87fa-48b4-9991-70d3cf67f277",
-      "title": "I made an app to translate blinks, head turns and nods into Morse Code! It is my first ever computer vision project!",
-      "platform": "reddit",
-      "content_type": "post",
-      "url": "https://reddit.com/r/webdev/comments/1nrb053/i_made_an_app_to_translate_blinks_head_turns_and/",
-      "content_text": "Hey guys, I have spent most of my free time during the past month working on this project to translate blinks, nods, and head turns into Morse code. I started this project mainly because I was starting to get bored with coding; which made me very sad, because coding has been a great source of joy for me!  \n  \n I had a theory that if I made something like nothing I had built before that was challenging enough; the dopamine that used to grace my system whenever I started to code would come back...and it did! I had days of fun!\n\nOne of the hardest part about making this was finding the right model for the job; I ended using Mediapipe's Face Landmarker which is open source and runs in the browser, after that the challenge was figuring out how to translate blendshape scores to detect head turns, nods, blinks and long blinks!   \n  \nThe whole process was sooo exciting! \n\nOnce, I finished the project, I made a YT [video ](https://youtu.be/LB8nHcPoW-g)about exactly how I made it. I will leave a link below if you'd like to watch it. I also deployed the app to Netlify; I added the link to the video description so you can try blinking in Morse code too. \n\nLink to video:  \n[https://youtu.be/LB8nHcPoW-g](https://youtu.be/LB8nHcPoW-g)",
-      "author": "Piko8Blue",
-      "published_date": "2025-09-26 16:46:34",
-      "scraped_date": "2025-09-26 19:25:07.492155",
-      "engagement_metrics": {
-        "views": 140,
-        "likes": 0,
-        "comments": 4,
-        "shares": 0,
-        "upvotes": 14,
-        "downvotes": 0,
-        "engagement_rate": 0.0
-      },
-      "viral_score": 38.57142857142858,
-      "tags": [
-        "webdev"
-      ],
-      "thumbnail_url": "https://a.thumbs.redditmedia.com/O8HmLZ0a7zi3XEOW-5twl9Czafa7LrWrsv-KQqSBul8.jpg"
-    },
-    {
       "id": "5d91b118-6807-4da4-ae5b-0243f154a323",
       "title": "OpenAPI 3.2.0 released: Evolving with Modern API Patterns",
       "platform": "reddit",
@@ -235,6 +135,31 @@
       "author": "AntonOkolelov",
       "published_date": "2025-09-26 15:47:21",
       "scraped_date": "2025-09-26 19:21:24.115052",
+      "engagement_metrics": {
+        "views": 40,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 4,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 37.5,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "05f20b57-9eea-453b-acf8-7a6f33bec780",
+      "title": "Go Maps Deep Dive - The Secrets Behind O(1) Performance, Overflows, and Growth",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrerby/go_maps_deep_dive_the_secrets_behind_o1/",
+      "content_text": "",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:22:03",
+      "scraped_date": "2025-09-27 11:25:24.688184",
       "engagement_metrics": {
         "views": 40,
         "likes": 0,
@@ -301,54 +226,29 @@
       "thumbnail_url": ""
     },
     {
-      "id": "ecb030d2-612e-4c1d-8262-671836948390",
-      "title": "Why I Celebrate Every Single Install Daily. A small win!",
+      "id": "53fbdfe9-ff33-4650-9c4c-60a3f4061469",
+      "title": "PostgreSQL 18 Released \u2014 pgbench Results Show It\u2019s the Fastest Yet",
       "platform": "reddit",
       "content_type": "post",
-      "url": "https://reddit.com/r/webdev/comments/1nr7ine/why_i_celebrate_every_single_install_daily_a/",
-      "content_text": "Hello folks, I\u2019m Johnson \ud83d\udc4b\n\nEvery morning, I open my Chrome extension dashboard like it\u2019s the stock market. Most days it says **+1 new install**. One. Just one.\n\nA few months back, I would\u2019ve laughed if someone told me I\u2019d get excited about a single install. But now? That \u201c1\u201d means a stranger out there trusted something I built. And honestly, that blows my mind.\n\nHere\u2019s the truth:\n\n* Bookmarks never worked for me.\n* I tried notes, docs, even dumping links in WhatsApp groups.\n* Every time, I\u2019d lose track of something important.\n\nSo I built **Grabber**. Not as a startup idea. Not because I thought it\u2019d go viral. I built it because I was tired of searching the same links over and over again. \n\nRight now, Grabber is tiny. \\~1 install/day. Some days 0. Some days 2. It\u2019s humbling. But every new user feels like a small \u201cyes\u201d that I\u2019m on the right path.\n\nI don\u2019t know where this will go yet. But I do know this: if even a handful of people save time every day because of it, then it\u2019s worth building.\n\nIf you\u2019ve struggled with messy links or bookmarks, I\u2019d love for you to try Grabber. And if you do, please tell me where it helps (or fails). Feedback means more than numbers at this stage.\n\nThanks for reading this far \u2764",
-      "author": "SubstantialFig3918",
-      "published_date": "2025-09-26 14:29:36",
-      "scraped_date": "2025-09-26 19:25:07.492103",
+      "url": "https://reddit.com/r/programming/comments/1nrw3p3/postgresql_18_released_pgbench_results_show_its/",
+      "content_text": "I just published a benchmark comparison across PG versions 12\u201318 using pgbench mix tests:\n\n[https://pgbench.github.io/mix/](https://pgbench.github.io/mix/)\n\nPG18 leads in every metric:\n\n* **3,057 TPS** \u2014 highest throughput\n* **5.232 ms latency** \u2014 lowest response time\n* **183,431 transactions** \u2014 most processed\n\nThis is synthetic, but it\u2019s a strong signal for transactional workloads. Would love feedback from anyone testing PG18 in production\u2014any surprises or regressions?",
+      "author": "OzkanSoftware",
+      "published_date": "2025-09-27 11:05:26",
+      "scraped_date": "2025-09-27 11:25:24.687746",
       "engagement_metrics": {
-        "views": 380,
+        "views": 70,
         "likes": 0,
-        "comments": 9,
+        "comments": 1,
         "shares": 0,
-        "upvotes": 38,
+        "upvotes": 7,
         "downvotes": 0,
         "engagement_rate": 0.0
       },
-      "viral_score": 37.10526315789473,
+      "viral_score": 34.285714285714285,
       "tags": [
-        "webdev"
+        "programming"
       ],
-      "thumbnail_url": "https://b.thumbs.redditmedia.com/8qdqpPLvmHj4EcKYlhKCrh9KsPNQgXV2EtGHrVLHV-o.jpg"
-    },
-    {
-      "id": "c3bb5cf2-4686-48fe-bc23-006766054da5",
-      "title": "Australia might restrict GitHub over damage to kids, internet laughs",
-      "platform": "reddit",
-      "content_type": "post",
-      "url": "https://reddit.com/r/webdev/comments/1nr804f/australia_might_restrict_github_over_damage_to/",
-      "content_text": "",
-      "author": "BillWilberforce",
-      "published_date": "2025-09-26 14:48:26",
-      "scraped_date": "2025-09-26 19:25:07.492043",
-      "engagement_metrics": {
-        "views": 3100,
-        "likes": 0,
-        "comments": 61,
-        "shares": 0,
-        "upvotes": 310,
-        "downvotes": 0,
-        "engagement_rate": 0.0
-      },
-      "viral_score": 35.90322580645161,
-      "tags": [
-        "webdev"
-      ],
-      "thumbnail_url": "default"
+      "thumbnail_url": ""
     },
     {
       "id": "d72b94ad-7f31-4689-abaa-4613ae495f94",
@@ -424,31 +324,6 @@
         "programming"
       ],
       "thumbnail_url": ""
-    },
-    {
-      "id": "e2d9749b-2d53-4915-9407-62610be773a5",
-      "title": "My makeup turns out perfect when I have nowhere to go",
-      "platform": "reddit",
-      "content_type": "post",
-      "url": "https://reddit.com/r/MakeupAddiction/comments/1nr3gr9/my_makeup_turns_out_perfect_when_i_have_nowhere/",
-      "content_text": " All I had to do was go to the dollar store today smh.\n\nProduct list: Est\u00e9e Lauder DW foundation in Rattan, Givenchy lipstick Sheer Velvet Le Rouge, Elf Sheer lip and cheek stain in cherry cola, Colourpop palette in Nude Mood, Maybelline Sky High mascara (black), Rare Beauty Highlighter in Exhilarate (liquid form), Revlon ColorStay eyeliner, \n\n",
-      "author": "OkAccountant5204",
-      "published_date": "2025-09-26 11:53:50",
-      "scraped_date": "2025-09-26 19:25:27.944974",
-      "engagement_metrics": {
-        "views": 12970,
-        "likes": 0,
-        "comments": 39,
-        "shares": 0,
-        "upvotes": 1297,
-        "downvotes": 0,
-        "engagement_rate": 0.0
-      },
-      "viral_score": 30.902081727062452,
-      "tags": [
-        "MakeupAddiction"
-      ],
-      "thumbnail_url": "https://b.thumbs.redditmedia.com/3DzCIjIC72bid7ZrO6kqmBG7fOkIcoIyVEjRrqIIjrU.jpg"
     },
     {
       "id": "53f621a9-54ad-4dc8-9c9b-33d520226516",
@@ -601,6 +476,131 @@
       "thumbnail_url": ""
     },
     {
+      "id": "5b851dcd-c617-4076-81b4-beffda65a6ec",
+      "title": "Video in which I go over physics, asset rendering, and AABB collision detection for my own indie Custom C++ 2D Game Engine",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrojl7/video_in_which_i_go_over_physics_asset_rendering/",
+      "content_text": "This is a devlog that follows an update to a previous feature that I added to my game Galatic Inc. It involves its own gravity system, its own rendering system, as well it's own click detection and collision resolution.\n\nThe following is a link to the github for the project:\n\n[https://github.com/NateTheGrappler](https://github.com/NateTheGrappler)\n\n  \nThis is the a download of the actual game:\n\n[https://natethecoder.itch.io/galatic-inc](https://natethecoder.itch.io/galatic-inc)",
+      "author": "CommercialStrike9439",
+      "published_date": "2025-09-27 03:57:44",
+      "scraped_date": "2025-09-27 11:25:24.687948",
+      "engagement_metrics": {
+        "views": 50,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 5,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "8383666f-1b47-4438-b159-b56653325e08",
+      "title": "Flight Recorder in Go 1.25",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrepm8/flight_recorder_in_go_125/",
+      "content_text": "",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:19:52",
+      "scraped_date": "2025-09-27 11:25:24.688090",
+      "engagement_metrics": {
+        "views": 80,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 8,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "0e8f2aa7-ec25-4c1b-9a02-511c83fc5908",
+      "title": "The PGM-index",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nres1z/the_pgmindex/",
+      "content_text": "",
+      "author": "ketralnis",
+      "published_date": "2025-09-26 19:22:55",
+      "scraped_date": "2025-09-27 11:25:24.688370",
+      "engagement_metrics": {
+        "views": 20,
+        "likes": 0,
+        "comments": 0,
+        "shares": 0,
+        "upvotes": 2,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 30.0,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "0dddecfe-963c-4467-b622-f4ad0c0be58f",
+      "title": "What are some modern language features you feel are consistently underutilized in your projects?",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrpi32/what_are_some_modern_language_features_you_feel/",
+      "content_text": "I've been thinking about this a lot in the context of C# lately. I see so many projects that could be dramatically simplified by using modern features like pattern matching and `init` setters, but for some reason, they're just not part of the standard toolkit for many developers.\n\nFor me, record types are a huge one. They've completely changed how I handle immutable data objects by eliminating all the boilerplate.\n\nWhat about in your primary language? What's a feature that you use all the time, but seems to be overlooked by others?",
+      "author": "riturajpokhriyal",
+      "published_date": "2025-09-27 04:58:46",
+      "scraped_date": "2025-09-27 11:25:24.688724",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 16,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.048,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "58a15207-3bcc-4cae-9a33-48865f0660e7",
+      "title": "Seniors, what's your \"one piece of advice\" for juniors? Here's mine after 10 years: Your biggest growth blocker isn't technical.",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nrt2vy/seniors_whats_your_one_piece_of_advice_for/",
+      "content_text": "Hey everyone,\n\nI'm a senior dev with few years of experience, mostly in the .NET world. I've had the chance to mentor a lot of junior developers, and I've noticed a pattern that has nothing to do with their coding ability.\n\nThe single biggest mistake I see is the **silent struggle**.\n\nWe've all been there. You're stuck on a problem for hours, browser full of purple Stack Overflow links, feeling that slow-burning panic of imposter syndrome. You tell yourself, \"I just need to figure this out on my own, or they'll think I'm incompetent.\"\n\nThis is a trap. Your goal as a developer on a team isn't to be a solo hero; it's to help solve problems efficiently. Wasting a whole day on a problem that a teammate could unblock in 10 minutes isn't a good use of anyone's time.\n\nLearning to ask for help is a skill, not a weakness. Here's the simple protocol I teach to get unblocked without wasting time:\n\n* **1. The 45-Minute Rule:** Give the problem a solid, focused effort for 45 minutes. Do your homework, use the debugger, and try to isolate the issue. If you're not making real progress by then, it's time to escalate.\n* **2. Document Your Journey:** Before you ask, write a quick summary. What's the goal? What did you try? What was the result? (Bonus: a lot of the time, just doing this will help you find the solution yourself).\n* **3. Prepare the \"Ask\":** Get everything ready\u2014a link to the code branch, the exact error message, and a clear question. Make it easy for someone to help you.\n* **4. Use Async First:** Send a well-crafted Slack/Teams message instead of interrupting. \"Hey, when you have a spare moment, could you look at this? I've tried X and Y. No rush.\" This respects their focus.\n\nAdopting this mindset is the fastest way to accelerate your learning and become a more valuable member of your team. We seniors would much rather spend 10 minutes helping you now than 2 hours untangling a bigger mess later.\n\nI wrote a more detailed post about the psychology behind this and why it's so important for your career. \n\nWhat's your single biggest piece of advice for new developers?",
+      "author": "Numerous_Hair3868",
+      "published_date": "2025-09-27 08:41:45",
+      "scraped_date": "2025-09-27 11:25:24.688508",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 5,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.015,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
       "id": "ae2e8272-e3ee-47ed-8cb2-7ec801059996",
       "title": "The Untold Story of the Swift Language",
       "platform": "reddit",
@@ -635,6 +635,31 @@
       "author": "Whatcookie_",
       "published_date": "2025-09-26 16:09:16",
       "scraped_date": "2025-09-26 19:21:24.115601",
+      "engagement_metrics": {
+        "views": 0,
+        "likes": 0,
+        "comments": 1,
+        "shares": 0,
+        "upvotes": 0,
+        "downvotes": 0,
+        "engagement_rate": 0.0
+      },
+      "viral_score": 0.003,
+      "tags": [
+        "programming"
+      ],
+      "thumbnail_url": ""
+    },
+    {
+      "id": "f07df3d1-4e50-49bd-a498-763e7dd4ea5d",
+      "title": "Understanding Floating-Point Numbers",
+      "platform": "reddit",
+      "content_type": "post",
+      "url": "https://reddit.com/r/programming/comments/1nriyvn/understanding_floatingpoint_numbers/",
+      "content_text": "",
+      "author": "PerfunctoryComments",
+      "published_date": "2025-09-26 22:43:18",
+      "scraped_date": "2025-09-27 11:25:24.688415",
       "engagement_metrics": {
         "views": 0,
         "likes": 0,
@@ -701,5 +726,5 @@
       "thumbnail_url": ""
     }
   ],
-  "last_updated": "2025-09-26T19:25:27.946997"
+  "last_updated": "2025-09-27T11:29:40.336243"
 }
