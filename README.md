@@ -2,6 +2,8 @@
 
 An AI-powered content inspiration platform designed for affiliate marketers to discover, analyze, and adapt viral content across multiple platforms. This full-stack application combines intelligent web scraping, AI analysis, and content brief generation to help creators stay ahead of trending topics.
 
+> Powered by Decodo: Decodo is an provider of advanced web scraping and proxy solutions that helps businesses extract data from websites at scale. They specialize in overcoming modern anti-bot measures, CAPTCHAs, and dynamic content challenges using AI-powered techniques and sophisticated proxy infrastructure. Their platform offers comprehensive scraping tools and APIs designed to handle complex data extraction from major platforms like Google, YouTube, and Bing while ensuring reliable, compliant data collection.
+
 ## ✨ Features
 
 ### 🎯 Content Discovery
