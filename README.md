@@ -1,4 +1,4 @@
-# 🚀 Viral Content Analyzer
+# Viral Content Analyzer
 
 An AI-powered content inspiration platform designed for affiliate marketers to discover, analyze, and adapt viral content across multiple platforms. This full-stack application combines intelligent web scraping, AI analysis, and content brief generation to help creators stay ahead of trending topics.
 
