@@ -50,7 +50,7 @@ export default function Home() {
   const [redditSubject, setRedditSubject] = useState<string>('tech');
   const [redditSubreddit, setRedditSubreddit] = useState<string>('');
 
-  const api_url = ''
+  const api_url = 'https://decodo-viral-content-analyzer-production.up.railway.app'
 
   // Subreddit suggestions by subject
   const subredditsBySubject = {
