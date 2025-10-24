@@ -275,36 +275,38 @@ export default function Home() {
 
   const getPlatformColor = (platform: string) => {
     switch (platform) {
-      case 'reddit': return 'bg-orange-100 text-orange-800';
-      case 'youtube': return 'bg-red-100 text-red-800';
-      case 'google': return 'bg-blue-100 text-blue-800';
-      case 'bing': return 'bg-green-100 text-green-800';
-      default: return 'bg-gray-100 text-gray-800';
+      case 'reddit': return 'bg-gradient-to-r from-orange-500 to-orange-600 text-white';
+      case 'youtube': return 'bg-gradient-to-r from-red-600 to-red-700 text-white';
+      case 'google': return 'bg-gradient-to-r from-blue-500 to-blue-600 text-white';
+      case 'bing': return 'bg-gradient-to-r from-green-500 to-green-600 text-white';
+      default: return 'bg-gradient-to-r from-gray-500 to-gray-600 text-white';
     }
   };
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50">
       {/* Header */}
-      <header className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <header className="bg-white/80 backdrop-blur-lg shadow-lg border-b border-purple-100 sticky top-0 z-40">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-2xl font-bold text-gray-900">Viral Content Analyzer</h1>
-              <p className="text-gray-600">AI-powered content inspiration for affiliate marketers</p>
+              <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 via-blue-600 to-purple-600 bg-clip-text text-transparent">
+                Viral Content Analyzer
+              </h1>
+              <p className="text-gray-600 mt-1 font-medium">AI-powered content inspiration for affiliate marketers</p>
             </div>
-            <div className="flex gap-2">
+            <div className="flex gap-3">
               <button
                 onClick={triggerScrape}
                 disabled={scrapeLoading}
-                className="bg-blue-600 hover:bg-blue-700 disabled:bg-blue-400 text-white px-4 py-2 rounded-md transition-colors"
+                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 disabled:from-blue-300 disabled:to-blue-400 text-white px-6 py-2.5 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
               >
                 {scrapeLoading ? 'Scraping...' : 'Refresh Content'}
               </button>
               {savedContent.size > 0 && (
                 <button
                   onClick={exportSavedContent}
-                  className="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-md transition-colors"
+                  className="bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 text-white px-6 py-2.5 rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
                   Export Saved ({savedContent.size})
                 </button>
@@ -317,22 +319,22 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         {/* Stats Overview */}
         {stats && (
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
-            <div className="bg-white rounded-lg p-4 shadow">
-              <h3 className="text-sm font-medium text-gray-500">Total Content</h3>
-              <p className="text-2xl font-bold text-gray-900">{stats.total_content}</p>
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div className="bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <h3 className="text-sm font-semibold text-blue-100 uppercase tracking-wide">Total Content</h3>
+              <p className="text-4xl font-bold text-white mt-2">{stats.total_content}</p>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow">
-              <h3 className="text-sm font-medium text-gray-500">AI Analyses</h3>
-              <p className="text-2xl font-bold text-gray-900">{stats.total_analyses}</p>
+            <div className="bg-gradient-to-br from-purple-500 to-purple-600 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <h3 className="text-sm font-semibold text-purple-100 uppercase tracking-wide">AI Analyses</h3>
+              <p className="text-4xl font-bold text-white mt-2">{stats.total_analyses}</p>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow">
-              <h3 className="text-sm font-medium text-gray-500">Content Briefs</h3>
-              <p className="text-2xl font-bold text-gray-900">{stats.total_briefs}</p>
+            <div className="bg-gradient-to-br from-green-500 to-green-600 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <h3 className="text-sm font-semibold text-green-100 uppercase tracking-wide">Content Briefs</h3>
+              <p className="text-4xl font-bold text-white mt-2">{stats.total_briefs}</p>
             </div>
-            <div className="bg-white rounded-lg p-4 shadow">
-              <h3 className="text-sm font-medium text-gray-500">Last Updated</h3>
-              <p className="text-sm text-gray-600">
+            <div className="bg-gradient-to-br from-pink-500 to-pink-600 rounded-2xl p-6 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105">
+              <h3 className="text-sm font-semibold text-pink-100 uppercase tracking-wide">Last Updated</h3>
+              <p className="text-sm text-white font-medium mt-2">
                 {new Date(stats.last_updated).toLocaleString()}
               </p>
             </div>
@@ -340,29 +342,29 @@ export default function Home() {
         )}
 
         {/* Search and Filters */}
-        <div className="bg-white rounded-lg p-4 shadow mb-6">
+        <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-purple-100 mb-8">
           <div className="space-y-4">
             {/* Search Bar */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">Search Content</label>
-              <div className="flex gap-2">
+              <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Search Content</label>
+              <div className="flex gap-3">
                 <input
                   type="text"
                   placeholder="Search by title, content, or tags..."
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
                   onKeyPress={(e) => e.key === 'Enter' && searchContent()}
-                  className="flex-1 border border-gray-300 rounded-md px-3 py-2 text-sm"
+                  className="flex-1 border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-3 text-sm font-medium transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                 />
                 <button
                   onClick={searchContent}
-                  className="bg-gray-600 hover:bg-gray-700 text-white px-4 py-2 rounded-md text-sm transition-colors"
+                  className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white px-6 py-3 rounded-xl text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
                   Search
                 </button>
                 <button
                   onClick={() => {setSearchQuery(''); fetchContent();}}
-                  className="bg-gray-400 hover:bg-gray-500 text-white px-4 py-2 rounded-md text-sm transition-colors"
+                  className="bg-gradient-to-r from-gray-500 to-gray-600 hover:from-gray-600 hover:to-gray-700 text-white px-6 py-3 rounded-xl text-sm font-semibold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                 >
                   Clear
                 </button>
@@ -372,11 +374,11 @@ export default function Home() {
             {/* Filters */}
             <div className="flex flex-wrap gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Platform</label>
+                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Platform</label>
                 <select
                   value={selectedPlatform}
                   onChange={(e) => setSelectedPlatform(e.target.value)}
-                  className="border border-gray-300 rounded-md px-3 py-2 text-sm"
+                  className="border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-2.5 text-sm font-medium transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                 >
                   <option value="all">All Platforms</option>
                   <option value="reddit">Reddit</option>
@@ -386,14 +388,14 @@ export default function Home() {
                 </select>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Min Viral Score</label>
+                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Min Viral Score</label>
                 <input
                   type="number"
                   min="0"
                   max="100"
                   value={minViralScore}
                   onChange={(e) => setMinViralScore(Number(e.target.value))}
-                  className="border border-gray-300 rounded-md px-3 py-2 text-sm w-20"
+                  className="border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-2.5 text-sm font-medium w-24 transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                 />
               </div>
             </div>
@@ -401,21 +403,21 @@ export default function Home() {
         </div>
 
         {/* Custom Scraping */}
-        <div className="bg-white rounded-lg p-4 shadow mb-6">
-          <h3 className="text-lg font-semibold text-gray-900 mb-3">Custom Content Scraping</h3>
+        <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-6 shadow-xl border border-purple-100 mb-8">
+          <h3 className="text-xl font-bold text-gray-900 mb-4 uppercase tracking-wide">Custom Content Scraping</h3>
           <div className="space-y-4">
 
             {/* Platform Selection */}
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Select Platforms</label>
-              <div className="grid grid-cols-2 gap-3">
+              <label className="block text-sm font-bold text-gray-700 mb-3 uppercase tracking-wide">Select Platforms</label>
+              <div className="grid grid-cols-2 gap-4">
                 {[
                   { id: 'reddit', name: 'Reddit', desc: 'Popular programming/tech subreddits' },
                   { id: 'google', name: 'Google', desc: 'Search with keywords' },
                   { id: 'bing', name: 'Bing', desc: 'Search with keywords' },
                   { id: 'youtube', name: 'YouTube', desc: 'Transcript search with keywords' }
                 ].map(platform => (
-                  <label key={platform.id} className="flex items-start p-2 border rounded cursor-pointer hover:bg-gray-50">
+                  <label key={platform.id} className="flex items-start p-4 border-2 border-purple-200 rounded-xl cursor-pointer hover:bg-purple-50 hover:border-purple-400 transition-all duration-300">
                     <input
                       type="checkbox"
                       checked={scrapePlatforms.includes(platform.id)}
@@ -426,11 +428,11 @@ export default function Home() {
                           setScrapePlatforms(scrapePlatforms.filter(p => p !== platform.id));
                         }
                       }}
-                      className="mr-2 mt-1"
+                      className="mr-3 mt-1 w-5 h-5 accent-purple-600"
                     />
                     <div>
-                      <span className="text-sm font-medium capitalize">{platform.name}</span>
-                      <p className="text-xs text-gray-500">{platform.desc}</p>
+                      <span className="text-sm font-bold capitalize">{platform.name}</span>
+                      <p className="text-xs text-gray-600 font-medium">{platform.desc}</p>
                     </div>
                   </label>
                 ))}
@@ -439,16 +441,16 @@ export default function Home() {
 
             {/* Reddit Subreddit Selection - only show if Reddit is selected */}
             {scrapePlatforms.includes('reddit') && (
-              <div className="space-y-3">
+              <div className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Reddit Subject</label>
+                  <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Reddit Subject</label>
                   <select
                     value={redditSubject}
                     onChange={(e) => {
                       setRedditSubject(e.target.value);
                       setRedditSubreddit(''); // Reset custom subreddit when subject changes
                     }}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                    className="w-full border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-2.5 text-sm font-medium transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                   >
                     {Object.keys(subredditsBySubject).map(subject => (
                       <option key={subject} value={subject}>
@@ -458,18 +460,18 @@ export default function Home() {
                   </select>
                 </div>
                 <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-1">Select Subreddit</label>
+                  <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Select Subreddit</label>
                   <select
                     value={redditSubreddit}
                     onChange={(e) => setRedditSubreddit(e.target.value)}
-                    className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                    className="w-full border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-2.5 text-sm font-medium transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                   >
                     <option value="">-- Popular {redditSubject} subreddits --</option>
                     {(subredditsBySubject[redditSubject as keyof typeof subredditsBySubject] || []).map(subreddit => (
                       <option key={subreddit} value={subreddit}>r/{subreddit}</option>
                     ))}
                   </select>
-                  <p className="text-xs text-gray-500 mt-1">
+                  <p className="text-xs text-gray-600 mt-2 font-medium">
                     Choose a specific subreddit or leave blank to use the first popular one for {redditSubject}.
                   </p>
                 </div>
@@ -479,7 +481,7 @@ export default function Home() {
             {/* Keywords - only show if non-Reddit platforms are selected */}
             {scrapePlatforms.some(p => p !== 'reddit') && (
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">
                   Keywords for {scrapePlatforms.filter(p => p !== 'reddit').join(', ')} (comma-separated)
                 </label>
                 <input
@@ -487,9 +489,9 @@ export default function Home() {
                   placeholder="programming, ai, viral content, trending..."
                   value={scrapeKeywords}
                   onChange={(e) => setScrapeKeywords(e.target.value)}
-                  className="w-full border border-gray-300 rounded-md px-3 py-2 text-sm"
+                  className="w-full border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-3 text-sm font-medium transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                 />
-                <p className="text-xs text-gray-500 mt-1">
+                <p className="text-xs text-gray-600 mt-2 font-medium">
                   Keywords are used for Google, Bing, and YouTube.
                 </p>
               </div>
@@ -499,21 +501,21 @@ export default function Home() {
               <div>
               </div>
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Limit</label>
+                <label className="block text-sm font-bold text-gray-700 mb-2 uppercase tracking-wide">Limit</label>
                 <input
                   type="number"
                   min="1"
                   max="100"
                   value={scrapeLimit}
                   onChange={(e) => setScrapeLimit(Number(e.target.value))}
-                  className="border border-gray-300 rounded-md px-3 py-2 text-sm w-20"
+                  className="border-2 border-purple-200 focus:border-purple-500 rounded-xl px-4 py-2.5 text-sm font-medium w-24 transition-all duration-300 focus:ring-4 focus:ring-purple-100 outline-none"
                 />
               </div>
             </div>
             <button
               onClick={triggerScrape}
               disabled={scrapeLoading || scrapePlatforms.length === 0}
-              className="bg-purple-600 hover:bg-purple-700 disabled:bg-purple-400 text-white px-4 py-2 rounded-md text-sm transition-colors"
+              className="bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 disabled:from-purple-300 disabled:to-purple-400 text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
             >
               {scrapeLoading ? 'Scraping...' : 'Scrape New Content'}
             </button>
@@ -522,63 +524,63 @@ export default function Home() {
 
         {/* Content Grid */}
         {loading ? (
-          <div className="text-center py-12">
-            <div className="inline-block animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600"></div>
-            <p className="mt-2 text-gray-600">Loading viral content...</p>
+          <div className="text-center py-16">
+            <div className="inline-block animate-spin rounded-full h-12 w-12 border-4 border-purple-200 border-t-purple-600"></div>
+            <p className="mt-4 text-gray-700 font-bold text-lg">Loading viral content...</p>
           </div>
         ) : content.length > 0 ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {content.map((item) => (
-              <div key={item.id} className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
-                <div className="p-4">
-                  <div className="flex items-center justify-between mb-2">
-                    <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${getPlatformColor(item.platform)}`}>
+              <div key={item.id} className="bg-white/90 backdrop-blur-sm rounded-2xl shadow-xl overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:scale-105 border-2 border-purple-100 hover:border-purple-300">
+                <div className="p-6">
+                  <div className="flex items-center justify-between mb-3">
+                    <span className={`inline-flex items-center px-3 py-1.5 rounded-xl text-xs font-bold shadow-md ${getPlatformColor(item.platform)}`}>
                       {item.platform.toUpperCase()}
                     </span>
-                    <span className="text-sm font-bold text-green-600">
+                    <span className="text-sm font-bold bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">
                       Score: {item.viral_score}
                     </span>
                   </div>
 
-                  <h3 className="text-lg font-semibold text-gray-900 mb-2 line-clamp-2">
+                  <h3 className="text-lg font-bold text-gray-900 mb-3 line-clamp-2 leading-tight">
                     {item.title}
                   </h3>
 
                   {item.content_text && (
-                    <p className="text-gray-600 text-sm mb-3 line-clamp-3">
+                    <p className="text-gray-600 text-sm mb-4 line-clamp-3 font-medium">
                       {item.content_text.substring(0, 150)}...
                     </p>
                   )}
 
-                  <div className="flex items-center justify-between text-sm text-gray-500 mb-3">
+                  <div className="flex items-center justify-between text-sm text-gray-500 mb-4 font-medium">
                     <span>{formatEngagement(item.engagement_metrics, item.platform)}</span>
-                    {item.author && <span>by {item.author}</span>}
+                    {item.author && <span className="font-semibold">by {item.author}</span>}
                   </div>
 
-                  <div className="flex flex-wrap gap-1 mb-3">
+                  <div className="flex flex-wrap gap-2 mb-4">
                     {item.tags.slice(0, 3).map((tag) => (
-                      <span key={tag} className="bg-gray-100 text-gray-700 px-2 py-1 rounded-full text-xs">
+                      <span key={tag} className="bg-gradient-to-r from-purple-100 to-blue-100 text-purple-700 px-3 py-1 rounded-full text-xs font-bold shadow-sm">
                         #{tag}
                       </span>
                     ))}
                   </div>
 
-                  <div className="space-y-2">
+                  <div className="space-y-3">
                     <div className="flex gap-2">
                       <a
                         href={item.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex-1 bg-blue-600 hover:bg-blue-700 text-white text-center py-2 px-3 rounded text-sm transition-colors"
+                        className="flex-1 bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white text-center py-2.5 px-3 rounded-xl text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300"
                       >
                         View Original
                       </a>
                       <button
                         onClick={() => toggleSaveContent(item.id)}
-                        className={`px-3 py-2 rounded text-sm transition-colors ${
+                        className={`px-4 py-2.5 rounded-xl text-lg font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-110 ${
                           savedContent.has(item.id)
-                            ? 'bg-yellow-500 hover:bg-yellow-600 text-white'
-                            : 'bg-gray-100 hover:bg-gray-200 text-gray-700'
+                            ? 'bg-gradient-to-r from-yellow-500 to-yellow-600 hover:from-yellow-600 hover:to-yellow-700 text-white'
+                            : 'bg-gradient-to-r from-gray-200 to-gray-300 hover:from-gray-300 hover:to-gray-400 text-gray-700'
                         }`}
                       >
                         {savedContent.has(item.id) ? '★' : '☆'}
@@ -588,14 +590,14 @@ export default function Home() {
                       <button
                         onClick={() => generateAIAnalysis(item.id)}
                         disabled={aiAnalysisLoading.has(item.id)}
-                        className="flex-1 bg-purple-600 hover:bg-purple-700 disabled:bg-purple-400 text-white py-2 px-3 rounded text-sm transition-colors"
+                        className="flex-1 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 disabled:from-purple-300 disabled:to-purple-400 text-white py-2.5 px-3 rounded-xl text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300"
                       >
                         {aiAnalysisLoading.has(item.id) ? 'Analyzing...' : '🤖 AI Analysis'}
                       </button>
                       <button
                         onClick={() => generateBrief(item.id)}
                         disabled={briefLoading.has(item.id)}
-                        className="flex-1 bg-green-600 hover:bg-green-700 disabled:bg-green-400 text-white py-2 px-3 rounded text-sm transition-colors"
+                        className="flex-1 bg-gradient-to-r from-green-600 to-green-700 hover:from-green-700 hover:to-green-800 disabled:from-green-300 disabled:to-green-400 text-white py-2.5 px-3 rounded-xl text-sm font-bold shadow-lg hover:shadow-xl transition-all duration-300"
                       >
                         {briefLoading.has(item.id) ? 'Generating...' : '📄 Get Brief'}
                       </button>
@@ -606,21 +608,23 @@ export default function Home() {
             ))}
           </div>
         ) : (
-          <div className="text-center py-12">
-            <p className="text-gray-500">No content found. Try adjusting your filters or refresh the content.</p>
+          <div className="text-center py-16">
+            <div className="bg-white/90 backdrop-blur-sm rounded-2xl p-12 shadow-xl border-2 border-purple-100 max-w-md mx-auto">
+              <p className="text-gray-700 font-bold text-lg">No content found. Try adjusting your filters or refresh the content.</p>
+            </div>
           </div>
         )}
 
         {/* AI Analysis Modal */}
         {showAnalysisModal && selectedAnalysis && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-            <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-              <div className="p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-900">🤖 AI Analysis Results</h2>
+          <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+            <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border-2 border-purple-200">
+              <div className="p-8">
+                <div className="flex justify-between items-center mb-6">
+                  <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">🤖 AI Analysis Results</h2>
                   <button
                     onClick={() => setShowAnalysisModal(false)}
-                    className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
+                    className="text-gray-500 hover:text-gray-700 text-3xl font-bold transition-colors hover:rotate-90 transform duration-300"
                   >
                     ×
                   </button>
@@ -737,10 +741,10 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="mt-6 flex justify-end">
+                <div className="mt-8 flex justify-end">
                   <button
                     onClick={() => setShowAnalysisModal(false)}
-                    className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded-md transition-colors"
+                    className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                   >
                     Close
                   </button>
@@ -752,14 +756,14 @@ export default function Home() {
 
         {/* Content Brief Modal */}
         {showBriefModal && selectedBrief && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50">
-            <div className="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
-              <div className="p-6">
-                <div className="flex justify-between items-center mb-4">
-                  <h2 className="text-2xl font-bold text-gray-900">📄 Content Brief</h2>
+          <div className="fixed inset-0 bg-black/70 backdrop-blur-sm flex items-center justify-center p-4 z-50">
+            <div className="bg-white rounded-2xl max-w-4xl w-full max-h-[90vh] overflow-y-auto shadow-2xl border-2 border-green-200">
+              <div className="p-8">
+                <div className="flex justify-between items-center mb-6">
+                  <h2 className="text-3xl font-bold bg-gradient-to-r from-green-600 to-green-700 bg-clip-text text-transparent">📄 Content Brief</h2>
                   <button
                     onClick={() => setShowBriefModal(false)}
-                    className="text-gray-500 hover:text-gray-700 text-2xl font-bold"
+                    className="text-gray-500 hover:text-gray-700 text-3xl font-bold transition-colors hover:rotate-90 transform duration-300"
                   >
                     ×
                   </button>
@@ -848,10 +852,10 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="mt-6 flex justify-end">
+                <div className="mt-8 flex justify-end">
                   <button
                     onClick={() => setShowBriefModal(false)}
-                    className="bg-gray-600 hover:bg-gray-700 text-white px-6 py-2 rounded-md transition-colors"
+                    className="bg-gradient-to-r from-gray-600 to-gray-700 hover:from-gray-700 hover:to-gray-800 text-white px-8 py-3 rounded-xl font-bold shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105"
                   >
                     Close
                   </button>
